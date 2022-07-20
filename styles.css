@@ -1,0 +1,73 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: darkslategray;
+    background-color: steelblue;
+}
+h1{ color: chartreuse;}
+
+.role{
+    color: chartreuse;
+    font-size: 20px;
+}
+
+.myclass h2 {
+     color: pink;
+
+}
+
+.myclass > p {
+    color: goldenrod;
+}
+
+.myclass img {
+    height: 300px;
+}
+
+img {
+    height: 300px;
+}
+
+#about-me p{ color: red;
+
+}
+.third-para {
+    color: red;
+}
+
+#box:checked + label {
+    color: green;
+    outline: 3px solid grey;
+}
+
+h1:hover {
+    background-color: pink;
+    width: 200px;
+}
+
+.contact:hover {
+color: blue;
+font-size: 20px;
+}
+
+.projects:hover  {
+    color: blue;
+    font-size: 20px;
+}
+
+p::first-letter {
+    color: purple;
+ }
+
+li::marker {
+     color: green;
+ }
+
+ a::after {
+    content: "!!";
+ }
+ a::before {
+    content: "!!";
+ }
+ 
+
+ 
