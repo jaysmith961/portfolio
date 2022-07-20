@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
     <title>James Smiths Webpage</title>
   </head>
   <body>
     <h1>James Smith</h1>
-    <h2>I am a junior developer</h2>
+    <a class="contact" href="projects/pages/contact.html">Contact me</a>
+    <a class="projects" href="projects/pages/projects.html">My projects</a>
+    <figure>
+      <img src="images/me.jpg" alt="a picture of me james smith" />
+      <figcaption>Me on my skiing holdiay.</figcaption>
+    </figure>
+    <h2 class="role">I am a junior developer</h2>
     <br />
     <hr />
     <main>
-      <h3>About me</h3>
-      <p>
-        Into my second week with manchester codes and really enjoying myself. By
-        the end of the 26 weeks i hope to have gained the skills and be
-        confident enough to follow a career in software development.
-      </p>
-      <p>
-        Website an APP development for eccomerce businesses is the road i want
-        to go down as of right now. Although im not starting to develope a
-        liking for data. It is being described as something more valuable than
-        oil.
-      </p>
+      <div class="myclass" id="about-me">
+        <h2>About me</h2>
+        <p>
+          Into my second week with manchester codes and really enjoying myself.
+          By the end of the 26 weeks i hope to have gained the skills and be
+          confident enough to follow a career in software development.
+        </p>
+        <p>
+          Website and APP development for eccomerce businesses is the road i
+          want to go down as of right now. Although im not starting to develope
+          a liking for data. It is being described as something more valuable
+          than oil.
+        </p>
+        <p>Here is my dog Otis</p>
+        <img src="images/otis.jpg" alt="My dog Otis" />
+        <div class="third-para">Third paragraph</div>
+      </div>
+    </div>
+      <h3>Qualities</h3>
+      <ol>
+        <li>Nice person</li>
+        <li>Problem solver</li>
+        <li>Always happy</li>
+      </ol>
+      <br />
+      <h3>Hobbies and interests</h3>
+      <ul>
+        <li>Liverpool</li>
+        <li>Stregnth and conditioning</li>
+        <li>software developing</li>
+      </ul>
+      <div>
+        <div id="socials">
+          <h3>My socials</h3>
+          <p>Follow me on Twitter</p>
+          <p>Follow me on Instagram</p>
+          <input type="checkbox" name="test-checkbox" id="box" checked>
+          <label for="test-checkbox">Check this box</label>
+          <button class="hi-button" disabled>Hi button</button>
+        </div>
     </main>
   </body>
   <footer>
